@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongoDb:
+      database: DataBaseHere
+      port: 27017
+      host: localhost
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ayoub.seddiki@usmba.ac.ma
+    password: pxhtxtgkyvswicpt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+springdoc:
+  api-docs:
+    path: /project-apis
